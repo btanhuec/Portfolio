@@ -76,7 +76,6 @@ a:hover{
   text-align:center;
   margin-left:25%;
   margin-right:25%;
-  background: #C6C6C6;
 }
 
 .textcontent{
@@ -95,7 +94,7 @@ a:hover{
   color:#003E1F;
 }
 .typewriter .anim{
-  color: #556b2f;
+  color: black;
   display: inline-block;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .10em solid orange; /* The typwriter cursor */
