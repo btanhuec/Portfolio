@@ -1,0 +1,223 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.ctext{
+  font-family: 'Cutive Mono', monospace;
+}
+
+.name{
+  color: black;
+  margin-bottom:30px;
+}
+.twindow{
+  margin-left:50%;
+  display:inline-block;
+  height: 20px;
+  width:50%;
+  background: #b4bea7 ;
+  .speclog{
+
+  }
+}
+
+.pinfo{
+  color:black;
+  padding-top:10px;
+}
+a:link{
+  background-color:#C6C6C6;
+  color:#556b2f;
+
+}
+a:visited{
+  color:#556b2f;
+}
+a{
+  padding: 5px;
+  text-decoration:none;
+}
+
+a:hover{
+  color:#556b2f;
+}
+
+.base{
+  background-image: url(/assets/editednew.jpg);
+  background-position:center 45%;
+  background-size:cover;
+  width:100%;
+  height:100%;
+  background-repeat: no-repeat;
+  padding-bottom:25px;
+}
+.cardk{
+  margin-top:-10px;
+  padding-top:20px;
+  margin-left:50%;
+  height:294px;
+  width:50%;
+  text-align:center;
+  background-color:rgb(180, 190, 167);
+}
+.profpic{
+  margin:auto;
+  display:inline-block;
+  background-image: url(/assets/memyself.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center 10%;
+  border-radius:25%;
+  position: center;
+  width:70%;
+  height:75%;
+}
+
+.name{
+  text-align:center;
+  margin-left:25%;
+  margin-right:25%;
+  background: #C6C6C6;
+}
+
+.textcontent{
+  display: inline-block;
+}
+
+.cursor{
+  display: inline-block;
+  font-size:22pt;
+}
+
+.anim{
+  font-size:30pt;
+}
+.year{
+  color:#003E1F;
+}
+.typewriter .anim{
+  color: #556b2f;
+  display: inline-block;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .10em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation:
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+.p h1{
+
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: gray; }
+}
+
+/* CSS code from online */
+.window {
+  border-radius: 3px;
+   /* background: 	#778899;*/
+   background: #b4bea7 ;
+  color: #fff;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 100%;
+
+  &:before {
+    content: ' ';
+    display: block;
+    height: 20px;
+    background: #C6C6C6;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    left: 12px;
+    right: 0;
+    top: -3px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 96px;
+    color: #fff;
+    line-height: 0;
+    letter-spacing: -12px;
+  }
+}
+
+.terminal {
+  margin: 20px;
+  font-family: monospace;
+  font-size: 12px;
+  color: #556b2f;
+
+
+
+  .command {
+    width: 0%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: write-command 1s both;
+
+    &:before {
+      content: '$ ';
+      color: #22da26;
+    }
+
+
+
+  }
+
+  .log {
+    white-space: nowrap;
+    height:70px;
+    overflow: hidden;
+    animation: write-log 10s both;
+    p:nth-child(2) {
+      animation-delay: 1s;
+    }
+
+    p:nth-child(3) {
+      animation-delay: 1s;
+    }
+  }
+
+  .speclog{
+    text-align:center;
+    white-space: nowrap;
+    height:150px;
+    overflow: hidden;
+    animation: write-log 10s both;
+    p:nth-child(2) {
+      animation-delay: 1s;
+    }
+
+    p:nth-child(3) {
+      animation-delay: 1s;
+    }
+  }
+  @keyframes write-command {
+    0% {
+      width: 0%;
+    }
+
+
+    100% {
+      width: 50%;
+    }
+  }
+
+
+
+
+
+}
