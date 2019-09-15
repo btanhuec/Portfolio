@@ -4,8 +4,85 @@
 .ctext{
   font-family: 'Cutive Mono', monospace;
 }
+.oldpic{
+  background-image: url(/assets/sinceiwasyoung.png);
+  width:50%;
+  height:400px;
+}
+.leftside{
+  padding-top:20px;
+  background: #c38d9E;
+  text-align:center;
+}
+.viddesc{
+  font-size:20px;
+  color:#123C69;
+  margin-left:10%;
+  margin-right:10%;
+}
+.sectiontwo{
+  width:100%;
+  height:700px;
+  background-image: url(/assets/trees2.jpg);
+
+/* Full height */
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+  .name{
+    background-color:rgba(0,0,0,0.3);
+  }
+}
+.biobody{
+  font-size:20px;
+}
+.simplebio{
+  color:white;
+}
+.btnshadow{
+  width:100%;
+  padding-top:5%;
+  padding-bottom:5%;
+
+}
+
+.prj{
+  background-color:#376E6F;
+  padding-bottom:200px;
+  .name{
+    background-color:#376E6F;
+  }
+}
+.rtext{
+  font-family: 'Roboto', sans-serif;
+}
+.hello{
+  height:500px;
+  width:100%;
+}
+
+.linkrows{
+  background-color:#123C69;
+  height:100px;
+
+}
+.cont{
+  height:50%;
+  background-color:#EEE2DC;
+}
+
+.fillmid{
+
+}
+
+
 
 .name{
+  margin-top:30px;
   color: black;
   margin-bottom:30px;
 }
@@ -24,40 +101,60 @@
   color:black;
   padding-top:10px;
 }
-a:link{
-  background-color:#C6C6C6;
-  color:#556b2f;
+
+.prlinks{
+  display:inline-block;
+
+  width:100%;
+  height:100%;
+  padding-top:10px;
+  padding-bottom:10px;
 
 }
-a:visited{
-  color:#556b2f;
+
+.r2{
+  margin: auto auto;
+  text-align:center;
+  background-color:#123C69;
+
 }
-a{
-  padding: 5px;
+a:link{
+  color:#123C69;
+  font-size:15pt;
+  background-color:white;
+  padding-left: 30%;
+  padding-right:30%;
+  margin-top:20px;
+  padding-top:20px;
+  padding-bottom:20px;
+  opacity: 0.6;
+  transition: 0.3s;
   text-decoration:none;
 }
+a:visited{
+  color:#123C69;
+}
+
 
 a:hover{
-  color:#556b2f;
+  color:#123C69;
+  opacity:1.0;
+  font-style:italic;
 }
 
 .base{
-  background-image: url(/assets/editednew.jpg);
+  background-color: #EEE2DC;
   background-position:center 45%;
   background-size:cover;
   width:100%;
   height:100%;
   background-repeat: no-repeat;
-  padding-bottom:25px;
 }
 .cardk{
-  margin-top:-10px;
-  padding-top:20px;
-  margin-left:50%;
-  height:294px;
-  width:50%;
+  height:500px;
+  width:100%;
   text-align:center;
-  background-color:rgb(180, 190, 167);
+  background-color:#123C69;
 }
 .profpic{
   margin:auto;
@@ -66,19 +163,25 @@ a:hover{
   background-size:cover;
   background-repeat:no-repeat;
   background-position: center 10%;
-  border-radius:25%;
+  border-radius:50%;
   position: center;
-  width:70%;
-  height:75%;
+  width:200px;
+  height:200px;
 }
 
 .name{
+  background-color:#123C69;
   text-align:center;
-  margin-left:25%;
-  margin-right:25%;
+  margin-top:0;
+  padding-top:10px;
 }
 
+
+
 .textcontent{
+  margin-left:0;
+  margin-right:0;
+  color:white;
   display: inline-block;
 }
 
@@ -94,13 +197,12 @@ a:hover{
   color:#003E1F;
 }
 .typewriter .anim{
-  color: black;
   display: inline-block;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .10em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em; /* Adjust as needed */
+  letter-spacing: 0em; /* Adjust as needed */
   animation:
     typing 3.5s steps(40, end),
     blink-caret .75s step-end infinite;
@@ -126,11 +228,12 @@ a:hover{
 .window {
   border-radius: 3px;
    /* background: 	#778899;*/
-   background: #b4bea7 ;
+   background: #c38d9E;
   color: #fff;
   overflow: hidden;
-  margin: 0 auto;
+  margin: 0 0;
   width: 100%;
+  height:100%;
 
   &:before {
     content: ' ';
@@ -157,7 +260,7 @@ a:hover{
   margin: 20px;
   font-family: monospace;
   font-size: 12px;
-  color: #556b2f;
+  color:#123C69;
 
 
 
